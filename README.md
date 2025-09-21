@@ -1,2 +1,2 @@
-#Netclicks
-\it's just for fun some lessons about frontend by gloacademy
+# Netclicks
+### \it's just for fun some lessons about frontend by gloacademy
