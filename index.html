@@ -7,16 +7,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Netclicks</title>
+    <script defer src="./script.js"></script>
 </head>
 
 <body>
     <header class="header">
         <div class="container">
             <div class="header-box">
-                <div class="header-logo">
+                <a href="./index.html" class="header-logo">
                     <h1>Netclicks</h1>
                     <p>Все о сериалах</p>
-                </div>
+                </a>
                 <div class="header-controls">
                     <a href="#">Вход и регистрация</a>
 
@@ -32,8 +33,8 @@
         <section class="search">
             <div class="container">
                 <div class="search-box">
-                    <input type="text" placeholder="Что хотите посмотреть?">
-                    <button>
+                    <input id="search-imput" type="text" placeholder="Что хотите посмотреть?">
+                    <button id="search-button">
                         <img src="./images/search.svg" alt="search">
                         <span>Найти</span>
                     </button>

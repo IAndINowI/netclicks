@@ -28,6 +28,11 @@ body {
     align-items: center;
 
 }
+.header-logo:hover > h1,
+.header-logo:hover >  p {
+    color: rgba(255, 73, 73, 1);
+    text-decoration: none;
+}
 .header-logo:visited {
     color: rgba(0, 0, 0, 1);
     text-decoration: none;
@@ -97,8 +102,21 @@ body {
     padding: 0 30px;
     min-width:0;
 }
-
-
+.search-box:hover > input{
+    box-shadow: inset 0px 0px 10px rgba(255, 73, 73, 0.3);
+    
+}
+.search-box:focus > input{
+    box-shadow: inset 0px 0px 10px rgba(255, 73, 73, 0.3);
+}
+.search-box:hover {
+    box-shadow: inset 0px 0px 50px rgba(244, 237, 255, 0.3);
+    
+}
+.search-box:hover > button{
+    box-shadow: inset 0px 0 26px rgba(244, 237, 255, 0.2);
+    
+}
 .search-box button {
     height: 100%;
     display: flex;
@@ -113,8 +131,10 @@ body {
     line-height: 17px;
     cursor: pointer;
     margin: 17px 22px 16px 20px;
+    cursor: pointer;
 
 }
+
 .content{ 
     margin-bottom: 94px;
 }
@@ -155,17 +175,15 @@ body {
     
 }
 .content-cards__items:hover{
+    color: rgb(255, 73, 73);    
     border: 42px;
     border-radius: 6px;
+
     box-shadow: 
     inset 0 0 0 rgba(0, 0, 0, 0.0),
     0 0 0 4px rgb(255, 255, 255),
     0px 12px 22px rgba(253, 73, 73, 0.8);
-
-    
-
 }
-
 
 .content-cards__item--img{
     width: 100%;
@@ -196,6 +214,7 @@ body {
     font-weight: 500;
     line-height: 19px;
 }
+
 .content-cards__item--title h5{
     font-weight: 700;
 }
@@ -397,6 +416,10 @@ body {
     background: rgb(255,73,73);
     outline: none;
     border-radius: 5px;
+}
+.content-film__info__controls button:hover{
+    box-shadow: inset 1px 0px 15px      
+    rgb(255, 133, 133);
 }
 
 @media (max-width: 768px) {
