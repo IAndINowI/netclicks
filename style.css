@@ -231,7 +231,7 @@ body {
     margin-bottom: 5px;
 }
 .content-sidebar__info__item p{
-    font-weight: 700;
+    font-weight: 400;
     margin: 0;
 }
 .content-sidebar__info__item h5,
@@ -239,7 +239,6 @@ body {
     
     font-family: Inter, sans-serif;
     font-size: 14px;
-    font-weight: 700;
     line-height: 17px;
     
 }
